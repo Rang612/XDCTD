@@ -1,0 +1,7 @@
+Program Example1; (* Example 1 *)
+Var n: String, m: Integer;
+Begin 
+//alo
+n = "alo";
+m = 5%3;
+End. (* Example 1 *)
