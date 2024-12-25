@@ -1,0 +1,12 @@
+PROGRAM TestSum;
+VAR total1 : INTEGER;
+    a : INTEGER;
+    b : INTEGER;
+
+BEGIN
+    a := 5;
+    b := 10;
+    total1 := sum a, b;
+    CALL WRITEI(total1);
+    CALL WRITELN;
+END.

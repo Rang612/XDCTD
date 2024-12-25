@@ -1,0 +1,12 @@
+PROGRAM Swap;
+VAR a: INTEGER;
+    b: INTEGER;
+BEGIN
+    a := 2;
+    b := 6;
+    a, b := b, a;
+    CALL WRITEI(a); 
+    CALL WRITELN;
+    CALL WRITEI(b);
+    CALL WRITELN;
+END.
